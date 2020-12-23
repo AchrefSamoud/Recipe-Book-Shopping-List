@@ -1,0 +1,11 @@
+<a style="cursor: pointer;"
+[routerLink]="[index]"
+routerLinkActive="active" >
+        <div class="card" style="width: 40rem; background-color: lightgray;" > 
+            <img src="{{recipe.imagePath}}" class="card-img-top img-responsive" alt="{{recipe.name}}">
+            <div class="card-body bg-dark text-light">
+                <h3 class="card-title">{{recipe.name}}</h3>
+              <p class="card-text">{{recipe.description}}</p>
+            </div>
+        </div>
+        </a>
